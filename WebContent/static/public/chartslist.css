@@ -1,0 +1,43 @@
+.weui_cells{
+			margin-top: 0px;
+		}
+		    /* margin-top: 1.17647059em; */
+		.weiui_cell_title{
+			line-height: 40px;
+			float: left;
+			width: 140px;
+		}
+		.weiui_cell_content{
+			float: left;
+			padding-left: 10px;
+			width: 100%;
+			    line-height: 23px;
+		}
+		.jiantou{
+			content: " ";
+		    display: block;
+		    -webkit-transform: rotate(45deg);
+		    transform: rotate(45deg);
+		    height: 6px;
+		    width: 6px;
+		    border-width: 2px 2px 0 0;
+		    border-color: #c8c8cd;
+		    border-style: solid;
+		    float: right;
+		}
+		.weui_switch {
+    height: 20px;
+}
+.weui_switch:after, .weui_switch:before {
+    height: 18px;
+}
+.list{
+	  overflow-x: hidden;
+  overflow-y: scroll;
+	
+}
+.compare{
+    float: right;
+    padding-right: 5px;
+
+}

@@ -1,0 +1,145 @@
+body{
+  font-family: "冬青黑体简体中文",Tahoma,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+body, html {
+  background-color: #f0eff4;
+  }
+.control-label{
+	padding-right: 0px;
+ 			text-align: right;	
+}
+			
+.weui_uploader_input_wrp {
+    float: left;
+    position: relative;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    width: 77px;
+    height: 77px;
+    border: 1px solid #d9d9d9
+}
+
+.weui_uploader_input_wrp:after, .weui_uploader_input_wrp:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9
+}
+
+.weui_uploader_input_wrp:before {
+    width: 2px;
+    height: 39.5px
+}
+
+.weui_uploader_input_wrp:after {
+    width: 39.5px;
+    height: 2px
+}
+
+.weui_uploader_input_wrp:active {
+    border-color: #999
+}
+
+.weui_uploader_input_wrp:active:after, .weui_uploader_input_wrp:active:before {
+    background-color: #999
+}
+
+.weui_uploader_input {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.weui_uploader_files {
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.weui_uploader_file {
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    width: 79px;
+    height: 79px;
+    background: no-repeat 50%;
+    background-size: cover;
+    
+}
+.weui_uploader_file  li{
+float:left;
+} 
+
+.weui_uploader_status {
+    position: relative
+}
+
+.weui_uploader_status:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.weui_uploader_status .weui_uploader_status_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff
+}
+.nav-bar{
+	float: left;line-height: 40px;padding-left: 10px;cursor: pointer;font-size: 16px;
+}
+header{
+	height: 40px;width: 100%px;  border-bottom: 1px solid #E7E8EA;margin-bottom: 20px;text-align: center;
+}
+label{
+	font-weight:normal;
+}
+
+.imgdel{
+         position: relative;
+    }
+    .imgdel .del{
+            width:20px;
+            height:20px;
+    position: absolute;
+        top: -8px;
+        right: -8px;
+        background-color: red;
+        color: white;
+        display: block;
+		border-radius: 50%;  
+		text-align: center;  
+		cursor: pointer;   
+		z-index:99999999;      
+    }
+    .imgdel .tip{
+      bottom: 0px;
+	  right: 20px;
+	  border-radius: 5px;
+	  width: 40px;
+	  background-color: rgba(255, 255, 255, 0.49);
+	  color: rgba(0, 0, 0, 0.36);
+	  filter: alpha(opacity:50);
+	  position: absolute;
+	  text-align: center;
+	}
+    .form-group{
+    	width: 100%;
+    }

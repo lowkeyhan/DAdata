@@ -1,0 +1,134 @@
+body{
+  font-family: "冬青黑体简体中文",Tahoma,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+body, html {
+  background-color: #f0eff4  !important;; 
+  }
+  .page, .page-group{
+  background: #f0eff4  !important;
+  }
+  .bar{
+   background-color: #F8FBFF  !important;; 
+  }
+.card{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+}
+.card-footer{
+	min-height: 0rem; 
+ 			padding: 3px 10px;
+ 			font-size: 14px;
+}
+.card .item-inner{
+	padding-bottom: 0px !important;
+	font-size: 14px;
+	
+}
+.list-block .item-subtitle{
+	font-size: 14px;
+	color: #999;;
+}
+.list-block .item-content {
+	padding-left: 10px !important;
+}
+header{
+	height: 50px !important;
+	  font-size: 14px;
+}
+.header_btn{
+	width: 25%;
+	line-height: 50px;
+	text-align: center;
+	color: #666;
+	cursor: pointer;
+}
+.header_btn_border{
+	border-bottom: solid 2px #4BB9FF;
+	font-weight: 700;
+}
+.bar .icon {
+   padding:0px !important; 
+  line-height: 50px !important;
+  font-size:12px;
+  }
+ span{
+   cursor: pointer;
+ }
+ select{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    padding-right: 14px;
+
+    background: url("../public/arrow.png") no-repeat scroll right center transparent;
+ /*background:transparent;*/
+ width:70px !important;
+/* padding:5px;*/
+ font-size:14px;
+ border-left:1px solid #ddd;
+  border-right:1px solid #ddd;
+  border-top:0px;
+  border-bottom:0px;
+  height:50px
+ }
+ table{
+     font-size: 12px;
+    width: 100%;}
+    table {
+  max-width: 100%;
+  background-color: transparent;
+}
+
+th {
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table  td {
+  padding: 8px !important;;
+  line-height: 22px !important;;
+  vertical-align: top !important;;
+  border-top: 1px solid #dddddd !important;;
+}
+
+.table thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+
+.table caption + thead tr:first-child th,
+.table colgroup + thead tr:first-child th,
+.table thead:first-child tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.table-striped  tbody  tr:nth-child(odd)  td,
+.table-striped  tbody  tr:nth-child(odd)  th {
+  background-color: #f9f9f9;
+}
+tr:nth-child(even){
+background:#f9f9f9;
+} 
+.morecard{
+width:100%;
+margin:0px;
+text-align: center;
+	cursor: pointer;
+}
